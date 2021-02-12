@@ -459,6 +459,10 @@ a {
     width: 100%;
   }
 
+  .client-section-padding-content {
+    padding: 20px;
+  }
+
   /* contact us mobile */
   .contact-us-section {
     flex-direction: column;
