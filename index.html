@@ -12,26 +12,27 @@
     <link rel="stylesheet" href="style.css">
     <title>Megsun Solutions</title>
 </head>
+<div class="menu-mobile-section">
+    <a class="menu-mobile-items active-mobile" href="#home-section">Home</a>
+    <a class="menu-mobile-items" href="#about-us-section">About Us</a>
+    <a class="menu-mobile-items" href="#service-section">Services</a>
+    <a class="menu-mobile-items" href="#client-section">Clients</a>
+    <a class="menu-mobile-items" href="#contact-us-section">Contact Us</a>
+</div>
 
 <body>
-    <div class="menu-mobile-section">
-        <div class="menu-mobile-items active-mobile">Home</div>
-        <div class="menu-mobile-items">About Us</div>
-        <div class="menu-mobile-items">Services</div>
-        <div class="menu-mobile-items">Clients</div>
-        <div class="menu-mobile-items">Contact Us</div>
-    </div>
     <div class="header-section">
         <div class="header-items">
-            <div class="logo-text">MS</div>
+            <!-- <div class="logo-text">MS</div> -->
+          <img class="logo" src="assets/logo.svg" alt="">
         </div>
         <div class="header-items">
             <div class="menu" id="menu">
-                <div class="menu-items active">Home</div>
-                <div class="menu-items">About Us</div>
-                <div class="menu-items">Services</div>
-                <div class="menu-items">Clients</div>
-                <div class="menu-items">Contact Us</div>
+                <a class="menu-items active" href="#home-section">Home</a>
+                <a class="menu-items" href="#about-us-section">About Us</a>
+                <a class="menu-items" href="#service-section">Services</a>
+                <a class="menu-items" href="#client-section">Clients</a>
+                <a class="menu-items" href="#contact-us-section">Contact Us</a>
                 <div class="container" onclick="myFunction(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
@@ -41,7 +42,7 @@
         </div>
     </div>
     <!-- home section with little info -->
-    <div class="home-section">
+    <div class="home-section" id="home-section">
         <div class="home-items">
             <span class="home-title">Megsun Solutions</span>
             <hr class="home-line">
@@ -52,32 +53,137 @@
     </div>
 
     <!-- About Us Section -->
-    <div class="about-us-section">
+    <div class="about-us-section" id="about-us-section">
         <div class="about-us-childs">
             <div class="about-us-padding">
                 <div class="about-us-title">About Us</div>
-                <div class="about-us-para"><span class="about-highlighter">Megsun</span> was founded in the year 2004 by a team of technocrats, with a vision to
-                    deliver quality Software solutions for our customers with innovation and customized strategies. 
-                    <br><div class="with-padding"></div>
-    
-                    At Megsun, we help your organization to reap optimal benefits of your investment in quality by providing
-                    customized solutions. <br> <div class="with-padding"></div>
-    
-                    We usher in technology for your Company’s business processes and strategy with cutting-edge, -economical
-                    solutions that don't consume internal corporate resources, allowing enterprises to focus on their core
-                    Business objectives</div>
+                <div class="about-us-para"><span class="about-highlighter">Megsun</span> was founded in the year 2004 by
+                    a team of technocrats, with a vision to
+                    deliver quality Software solutions for our customers with innovation and customized strategies.
+                    <br>
+                    <div class="with-padding"></div>
+
+                    At Megsun, we help your organization to reap optimal benefits of your investment in quality by
+                    providing
+                    customized solutions. <br>
+                    <div class="with-padding"></div>
+
+                    We usher in technology for your Company’s business processes and strategy with cutting-edge,
+                    -economical
+                    solutions that don't consume internal corporate resources, allowing enterprises to focus on their
+                    core
+                    Business objectives
+                </div>
             </div>
         </div>
         <div class="about-us-childs">
             <div class="about-us-contents">
-                <img class='about-us-image' src="assets/work1.svg" alt="" srcset="">
-                <img class='about-us-image' src="assets/work2.svg" alt="" srcset="">
+                <span class="about-us-image-title">
+                    Problem Solving
+                </span>
+                <img class='about-us-image' src="assets/problem-solving.svg" alt="" srcset="">
+                <span class="about-us-image-title">
+                    Risk Free
+                </span>
+                <img class='about-us-image' src="assets/risk-free.svg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div id="service-section" id="service-section">
+        <div class="services-title">Services</div>
+        <div class="services-section">
+            <div class="service-section-item">
+                <img class='service-section-image' src="assets/helping-hands.svg" alt="" srcset="">
+            </div>
+            <div class="service-section-item">
+                <div class="service-sub-content">Software Testing</div>
+                <div class="service-sub-content">Application development and Maintenance</div>
+                <div class="service-sub-content">Outsourcing</div>
+                <div class="service-sub-content">Consultancy Services</div>
+                <div class="service-sub-content">Placement Services</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- client section -->
+    <div class="services-title">Clients</div>
+    <div class="client-section" id="client-section">
+        <div class="client-section-image-placeholder">
+            <div class="client-para">
+                <div class="client-para-content">We have a <b>growing list</b> of delighted clients who rely on our
+                    skills and place faith in our expertise and
+                    competency in providing quality solutions.</div> <br class="br-padding">
+
+                <div class="client-para-content"> At <span class="client-highlighter">Megsun</span>, we are committed to
+                    <b>100% customer satisfaction</b>. We measure our success in terms of the
+                    success of our customers. As individuals, and collectively as an organization, we judge ourselves by
+                    the
+                    ability of our customers to achieve their business objectives.</div> <br class="br-padding">
+
+                <div class="client-para-content"> Our clients have always found us to be professional and consistent at
+                    meeting their expectations,
+                    pleased with the performance of the software solutions we had developed for them, impressed with our
+                    <b>speed of execution</b> and the <b>quality</b> of the service, we had provided.
+                </div>
+            </div>
+            <div class="client-section-card">
+                <div class="client-section-padding-content">
+                    <div class="client-card-title">Our Clientele</div>
+                    <ul>
+                        <li class="client-content">CANBAN Computer Service Ltd. (CCSL), Banglore</li>
+                        <li class="client-content">Infosys</li>
+                        <li class="client-content">CMC Ltd.</li>
+                        <li class="client-content">3i InfoTech</li>
+                        <li class="client-content">M/s. GLOBAL NATION (BD) LTD.</li>
+                        <li class="client-content">M/s.FRONTIERS TECHNOLOGIES LTD.,</li>
+                        <li class="client-content">ALIMENT TECHNOLOGIES LTD.,</li>
+                        <li class="client-content">Syslogic ltd.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
 
+    <!-- contact us section -->
+    <div class="services-title" id="contact-us-section">Contact Us</div>
+    <div class="contact-us-section">
+        <img class='contact-us-image' src="assets/contact-us.svg" alt="" srcset="">
+        <div class="contact-us-content">
+            <div class="content-center">
+                <div class="contact-content-title">Megsun Solutions</div> <br>
+            <div class="contact-content-sub-title">119 Sharada Colony,</div>
+            <div class="contact-content-sub-title">Basaveshwaranagar,</div>
+            <div class="contact-content-sub-title">Bangalore – 560079</div> <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td> Phone :</td>
+                        <td class="cell-highlighter"> +91-80-23493161</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="cell-highlighter"> +91-80-23483258</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile :</td>
+                        <td class="cell-highlighter"> +91-9844260488</td>
+                    </tr>
+                    <tr>
+                        <td>Email :</td>
+                        <td class="cell-highlighter">info@megsunsolutions.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </div>
 
+    <!-- footer section -->
+    <div class="footer">
+        © 2007 Megsun Solutions. All rights reserved
+    </div>
 
 
 

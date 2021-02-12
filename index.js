@@ -6,6 +6,7 @@ function LinkAction() {
         element.classList.remove('active')
     }
     this.classList.add('active');
+
     }
 for (let index = 0; index < menuItems.length; index++) {
     const element = menuItems[index];
@@ -25,7 +26,12 @@ function LinkActionForMobile() {
         element.classList.remove('active-mobile')
     }
     this.classList.add('active-mobile');
-    }
+    const show = document.querySelector('.menu-mobile-section');
+    show.classList.toggle('menu-mobile-section-show');
+    const showMenu = document.querySelector('.container');
+    showMenu.classList.toggle('change');
+    
+}
 for (let index = 0; index < menuItemsMobile.length; index++) {
     const element = menuItemsMobile[index];
     element.addEventListener("click", LinkActionForMobile);
